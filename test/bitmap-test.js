@@ -4,7 +4,7 @@ const fs = require('fs');
 describe('transformed image created', function() {
   var fileArray = [];
   before(function(done) {
-    fs.readFile('../assets/transformed.bmp', function(err, data) {
+    fs.readFile('../assets/transfor med.bmp', function(err, data) {
       fileArray.push(data);
     });
     done();
